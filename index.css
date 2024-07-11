@@ -1,0 +1,43 @@
+.form_container{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+
+.form{
+    border: 2px solid black;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.form div{
+    /* background-color: blue; */
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.form div label{
+    display: block;
+    width: 100px;
+}
+
+.form div input{
+    width: 80%;
+    height: 20px;
+    font-size: 18px;
+}
+
+.submit_button:hover {
+    background-color: darkgreen; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
