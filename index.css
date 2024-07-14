@@ -37,7 +37,3 @@
     font-size: 18px;
 }
 
-.submit_button:hover {
-    background-color: darkgreen; /* Change background color on hover */
-    transform: scale(1.05); /* Slightly increase the size on hover */
-}
